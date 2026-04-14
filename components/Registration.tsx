@@ -3,7 +3,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useState } from "react";
 import { Send, MessageCircle, CheckCircle } from "lucide-react";
 
-const WA_NUMBER = "628XXXXXXXXXX"; // ← Ganti nomor WA aktif
+const WA_NUMBER = "6283113447280"; // ← Ganti nomor WA aktif
 
 export default function Registration() {
   useScrollAnimation();
