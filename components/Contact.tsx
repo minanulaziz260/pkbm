@@ -43,12 +43,22 @@ export default function Contact() {
           </div>
 
           {/* Google Maps */}
-          <div className="reveal rounded-3xl overflow-hidden shadow-xl border border-gray-100 dark:border-gray-800 min-h-80">
-            <iframe
-              title="Lokasi PKBM MUGI SAE"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d506863.17863212095!2d110.4170652!3d-7.0247298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fbddf51a99503%3A0x783416ce8be2c361!2sPKBM%20MUGI%20SAE%20JATIBARANG!5e0!3m2!1sid!2sid!4v1776175478307!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-              width="100%" height="100%" style={{ border:0, minHeight:"320px" }}
-              allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
+<div className="reveal rounded-3xl overflow-hidden shadow-xl border border-gray-100 dark:border-gray-800 min-h-80">
+  <iframe
+    title="Lokasi PKBM MUGI SAE"
+
+    {/* ↓ GANTI BARIS INI ↓ */}
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d506863.17863212095!2d110.4170652!3d-7.0247298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fbddf51a99503%3A0x783416ce8be2c361!2sPKBM%20MUGI%20SAE%20JATIBARANG!5e0!3m2!1sid!2sid!4v1776175478307!5m2!1sid!2sid"
+    {/* ↑ SAMPAI SINI ↑ */}
+
+    width="100%"
+    height="100%"
+    style={{ border: 0, minHeight: "320px" }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
             />
           </div>
         </div>
