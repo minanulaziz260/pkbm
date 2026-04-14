@@ -24,7 +24,7 @@ const programs = [
     color: "from-gold-DEFAULT to-gold-dark", textColor: "text-gold-dark",
     borderColor: "border-gold-DEFAULT", icon: "🎓", badge: "Unggulan",
     desc: "Program kesetaraan SMA/MA untuk membuka peluang ke perguruan tinggi dan dunia kerja.",
-    features: ["Lulusan Paket B / SMP sederajat","Pilihan jurusan IPA / IPS","Persiapan SNBT / SNBP","Magang & sertifikasi profesi","Jadwal malam tersedia"],
+    features: ["Lulusan Paket B / SMP sederajat","Pilihan jurusan IPA / IPS","Persiapan SNBT / SNBP","Magang & sertifikasi profesi"],
     duration: "3 – 4 Tahun",
   },
 ];
