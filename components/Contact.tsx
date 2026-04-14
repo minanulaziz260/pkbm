@@ -2,7 +2,7 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { MapPin, Phone, Mail, MessageCircle, Clock } from "lucide-react";
 
-const WA_NUMBER = "628XXXXXXXXXX";
+const WA_NUMBER = "6283113447280";
 
 export default function Contact() {
   useScrollAnimation();
@@ -18,9 +18,9 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-12">
           <div className="reveal space-y-5">
             {[
-              { icon:MapPin,        label:"Alamat",            value:"Jl. Pendidikan No. 1, [Kecamatan], [Kabupaten]",  color:"text-teal-DEFAULT",   bg:"bg-teal-DEFAULT/10" },
-              { icon:Phone,         label:"Telepon / WA",      value:"+62 8XX XXXX XXXX",  color:"text-green-600",      bg:"bg-green-100 dark:bg-green-900/20", link:`https://wa.me/${WA_NUMBER}` },
-              { icon:Mail,          label:"Email",             value:"info@pkbmmugisae.sch.id", color:"text-primary-DEFAULT", bg:"bg-primary-DEFAULT/10", link:"mailto:info@pkbmmugisae.sch.id" },
+              { icon:MapPin,        label:"Alamat",            value:"JL Kh. Syahroni No. 51, [Jatibarang], [Brebes]",  color:"text-teal-DEFAULT",   bg:"bg-teal-DEFAULT/10" },
+              { icon:Phone,         label:"Telepon / WA",      value:"+6283113447280",  color:"text-green-600",      bg:"bg-green-100 dark:bg-green-900/20", link:`https://wa.me/${WA_NUMBER}` },
+              { icon:Mail,          label:"Email",             value:"pkbm.mugisae@gmail.com", color:"text-primary-DEFAULT", bg:"bg-primary-DEFAULT/10", link:"mailto:info@pkbmmugisae.sch.id" },
               { icon:Clock,         label:"Jam Operasional",   value:"Senin – Sabtu: 08.00 – 20.00 WIB", color:"text-gold-dark", bg:"bg-gold-DEFAULT/10" },
             ].map((c) => (
               <div key={c.label} className="card p-6 flex items-start gap-4">
@@ -46,7 +46,7 @@ export default function Contact() {
           <div className="reveal rounded-3xl overflow-hidden shadow-xl border border-gray-100 dark:border-gray-800 min-h-80">
             <iframe
               title="Lokasi PKBM MUGI SAE"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.39352213168!2d110.2930093!3d-7.0059668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4d3f0d024d%3A0x1e0432b9cdf5490b!2sKabupaten%20Semarang%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1713000000000"
+              src="https://www.google.com/maps?q=-6.9649,109.0621"
               width="100%" height="100%" style={{ border:0, minHeight:"320px" }}
               allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
             />
