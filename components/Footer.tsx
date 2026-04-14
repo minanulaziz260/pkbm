@@ -1,7 +1,7 @@
 "use client";
 import { Instagram, Facebook, Youtube, MessageCircle } from "lucide-react";
 
-const WA_NUMBER = "628XXXXXXXXXX";
+const WA_NUMBER = "6283113447280";
 
 export default function Footer() {
   const scroll = (href: string) => document.querySelector(href)?.scrollIntoView({ behavior:"smooth" });
