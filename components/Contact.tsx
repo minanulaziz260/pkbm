@@ -27,7 +27,7 @@ export default function Contact() {
               {
                 icon: MapPin,
                 label: "Alamat",
-                value: "Jl. Pendidikan No. 1, Jatibarang",
+                value: "JL Kh. Syahroni No. 51 Jatibarang- Brebes",
                 color: "text-teal-DEFAULT",
                 bg: "bg-teal-DEFAULT/10",
               },
