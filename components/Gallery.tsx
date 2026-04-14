@@ -3,12 +3,12 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import Image from "next/image";
 
 const photos = [
-  { src: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&q=80", alt: "Kegiatan belajar Paket C",  span: "col-span-2 row-span-2" },
-  { src: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&q=80", alt: "Diskusi kelompok belajar",  span: "" },
-  { src: "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&q=80", alt: "Ujian nasional kesetaraan", span: "" },
-  { src: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&q=80", alt: "Wisuda alumni PKBM",       span: "" },
-  { src: "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=400&q=80", alt: "Pembelajaran digital",     span: "" },
-  { src: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&q=80", alt: "Workshop keterampilan",     span: "col-span-2" },
+  { src: "/images/foto1.jpg", alt: "Kegiatan belajar Paket C",  span: "col-span-2 row-span-2" },
+  { src: "/images/foto2.jpg", alt: "Diskusi kelompok belajar",  span: "" },
+  { src: "/images/foto3.jpg", alt: "Ujian nasional kesetaraan", span: "" },
+  { src: "/images/foto4.jpg", alt: "Wisuda alumni PKBM",        span: "" },
+  { src: "/images/foto5.jpg", alt: "Pembelajaran digital",      span: "" },
+  { src: "/images/foto6.jpg", alt: "Workshop keterampilan",     span: "col-span-2" },
 ];
 
 export default function Gallery() {
