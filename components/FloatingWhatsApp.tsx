@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { X, MessageCircle } from "lucide-react";
 
-const WA_NUMBER = "628XXXXXXXXXX";
+const WA_NUMBER = "6283113447280";
 
 export default function FloatingWhatsApp() {
   const [open, setOpen] = useState(false);
