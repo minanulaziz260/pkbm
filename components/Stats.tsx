@@ -5,7 +5,7 @@ import { Users, BookOpen, Award, Clock } from "lucide-react";
 const stats = [
   { icon: Users,    value: "500+",   label: "Alumni Sukses",      color: "text-teal-DEFAULT",   bg: "bg-teal-DEFAULT/10" },
   { icon: BookOpen, value: "3",      label: "Program Pendidikan", color: "text-gold-dark",      bg: "bg-gold-DEFAULT/10" },
-  { icon: Award,    value: "B",      label: "Status Akreditasi",  color: "text-primary-DEFAULT",bg: "bg-primary-DEFAULT/10" },
+  { icon: Award,    value: "A",      label: "Status Akreditasi",  color: "text-primary-DEFAULT",bg: "bg-primary-DEFAULT/10" },
   { icon: Clock,    value: "10+",    label: "Tahun Pengalaman",   color: "text-teal-dark",      bg: "bg-teal-dark/10" },
 ];
 
