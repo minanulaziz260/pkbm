@@ -37,7 +37,7 @@ export default function Footer() {
           {[
             { title:"Program",    links:[{label:"Paket A – Setara SD",href:"#program"},{label:"Paket B – Setara SMP",href:"#program"},{label:"Paket C – Setara SMA",href:"#program"},{label:"Pendaftaran",href:"#daftar"}] },
             { title:"Informasi",  links:[{label:"Tentang Kami",href:"#tentang"},{label:"Keunggulan",href:"#keunggulan"},{label:"Galeri",href:"#galeri"},{label:"Kontak",href:"#kontak"}] },
-            { title:"Legalitas",  links:[{label:"NPSN: P2964100",href:"#"},{label:"Akreditasi: B",href:"#"},{label:"Status: Swasta",href:"#"},{label:"Kemendikbud RI",href:"https://kemdikbud.go.id"}] },
+            { title:"Legalitas",  links:[{label:"NPSN: P2964100",href:"#"},{label:"Akreditasi: A",href:"#"},{label:"Status: Swasta",href:"#"},{label:"Kemendikbud RI",href:"https://kemdikbud.go.id"}] },
           ].map((col) => (
             <div key={col.title}>
               <h4 className="font-display font-bold text-sm uppercase tracking-wider text-gold-DEFAULT mb-4">{col.title}</h4>
