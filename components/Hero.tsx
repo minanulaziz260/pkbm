@@ -24,7 +24,7 @@ export default function Hero() {
           {/* Badge */}
           <div className="reveal visible inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
             <Award className="w-4 h-4 text-gold-DEFAULT" />
-            <span className="text-white/90 text-sm font-medium">Akreditasi B · NPSN P2964100</span>
+            <span className="text-white/90 text-sm font-medium">Akreditasi A · NPSN P2964100</span>
           </div>
 
           {/* Headline */}
@@ -56,7 +56,7 @@ export default function Hero() {
             {[
               { icon: Users, val: "500+",    label: "Alumni Sukses" },
               { val: "3",                    label: "Jenjang Paket" },
-              { icon: Award, val: "Akred. B", label: "Terakreditasi" },
+              { icon: Award, val: "Akred. A", label: "Terakreditasi" },
             ].map((s, i) => (
               <div key={i} className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center">
                 <div className="font-display font-bold text-white text-xl">{s.val}</div>
