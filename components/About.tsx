@@ -25,7 +25,7 @@ export default function About() {
             </p>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
               Dengan NPSN <strong className="text-primary-DEFAULT">P2964100</strong> dan akreditasi
-              <strong className="text-gold-DEFAULT"> B</strong>, PKBM MUGI SAE telah membuktikan
+              <strong className="text-gold-DEFAULT"> A</strong>, PKBM MUGI SAE telah membuktikan
               komitmennya dalam layanan pendidikan berkualitas bagi ratusan alumni.
             </p>
             <div className="grid grid-cols-2 gap-4">
